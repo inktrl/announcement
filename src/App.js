@@ -145,7 +145,7 @@ function App() {
         </div>
         {searchedPosts.length
         ? searchedPosts.map((item, index) => <Post item={item} key={item.id} index={index + 1} deletePost={deletePost} editPost={editPost} showSimilar={showSimilar}/>)
-        : `Not post...` }
+        : `No posts...` }
         
       </div>
     </div>
